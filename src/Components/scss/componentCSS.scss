@@ -1,0 +1,126 @@
+@import './mediaQuery';
+
+h1{
+    color: rebeccapurple;
+}
+h2{
+    color: burlywood;
+}
+
+.container-fluid{
+    #navContent{
+        margin-left: 10%;
+        // text-align: center;
+        // background-color: red;
+        a{
+            color: burlywood;
+    
+        }
+        // background-color: red;
+    }
+
+}
+
+#logoName{
+    // background-color: aquamarine;
+    font-weight: bold;
+    color: brown;
+    // margin-right: 5rem;
+}
+
+.workInProgress{
+    width: 100%;
+    text-align: center;
+}
+
+.productsNav{
+    background-color: beige;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a{
+        color: brown;
+        text-decoration: none;
+    }
+}
+
+// .product1{
+//     // background-color: red;
+//     border: 1px solid burlywood;
+//     width: 20%;
+//     text-align: center;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     @include mq("phone"){
+//         width: 100%;
+//     }
+//     img{
+//         width: 90%;
+//         // min-height: 18rem;
+//         // height: 250px;
+//         margin-top: 1rem;
+//         @include mq("phone"){
+//             height: 24rem;
+//         }
+//     }
+//     h5{
+//         color: brown;
+//         font-weight: bold;
+//         margin-top: 0.5rem;
+//     }
+// }
+
+// .cards1{
+    //     // background-color: black;
+    //     width: 20%;
+//     text-align: center;
+//     border: 1px solid burlywood;
+//     margin: 1rem;
+//     img{
+    //         margin-top: 1rem;
+//         width: 80%;
+//         height: 250px;
+//     }
+// }
+.product1{
+    background-color: red;
+    display: flex;
+    // width: 20%;
+}
+.parentCard{
+    // background-color: green;
+    // width: 100%;
+    #product1Data{
+        // padding: 1rem;
+        // padding-bottom: 0;
+        // width: 100%;
+        // background-color: blue;
+        // margin-top: 1rem;
+        // margin-bottom: 1rem;
+        img{
+            height: 18rem;
+            @include mq('phone'){
+                height: 22rem;
+            }
+            // width: 100%;
+        }
+        h5{
+            color: burlywood;
+            text-align: center;
+        }
+    }
+
+}
+
+#lamps1{
+    text-align: center;
+    h2{
+        color: brown;
+        font-weight: bold;
+
+    }
+}

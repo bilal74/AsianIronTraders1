@@ -1,0 +1,79 @@
+/* MIXIN : MEDIA QUERIES
+ *    EX : @include mq( 'lap-and-up' ) { CODE }
+ * ------------------------------------------------------------------------- */
+h1 {
+  color: rebeccapurple;
+}
+
+h2 {
+  color: burlywood;
+}
+
+.container-fluid #navContent {
+  margin-left: 10%;
+}
+
+.container-fluid #navContent a {
+  color: burlywood;
+}
+
+#logoName {
+  font-weight: bold;
+  color: brown;
+}
+
+.workInProgress {
+  width: 100%;
+  text-align: center;
+}
+
+.productsNav {
+  background-color: beige;
+  width: 100%;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.productsNav a {
+  color: brown;
+  text-decoration: none;
+}
+
+.product1 {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parentCard #product1Data img {
+  height: 18rem;
+}
+
+@media screen and (max-width: 767px) {
+  .parentCard #product1Data img {
+    height: 22rem;
+  }
+}
+
+.parentCard #product1Data h5 {
+  color: burlywood;
+  text-align: center;
+}
+
+#lamps1 {
+  text-align: center;
+}
+
+#lamps1 h2 {
+  color: brown;
+  font-weight: bold;
+}
+/*# sourceMappingURL=componentCSS.css.map */
