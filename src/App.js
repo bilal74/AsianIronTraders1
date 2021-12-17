@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import './Components/scss/componentCSS.css';
 import { Navbar } from './Components/Navbar';
-import { Home } from './Components/Home';
 import { Products } from './Components/Products';
 import { Projects } from './Components/Projects';
 import { Story } from './Components/Story';
@@ -29,7 +28,6 @@ function App() {
        <Navbar />
     <Switch>
           <Route exact path="/">
-            {/* <Home /> */}
             <Product1 />
           </Route>
 
@@ -78,7 +76,6 @@ function App() {
 
          
           <Route path="**">
-            {/* <Home /> */}
             <Product1 />
           </Route>
     </Switch>
