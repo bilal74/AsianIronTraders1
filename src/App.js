@@ -29,7 +29,8 @@ function App() {
        <Navbar />
     <Switch>
           <Route exact path="/">
-            <Home />
+            {/* <Home /> */}
+            <Product1 />
           </Route>
 
           <Route exact path="/products">
