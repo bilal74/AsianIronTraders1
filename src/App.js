@@ -78,7 +78,8 @@ function App() {
 
          
           <Route path="**">
-            <Home />
+            {/* <Home /> */}
+            <Product1 />
           </Route>
     </Switch>
 
